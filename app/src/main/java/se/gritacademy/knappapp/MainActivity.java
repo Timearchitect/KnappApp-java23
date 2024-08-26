@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void onClick(View v) {
                     Toast.makeText(MainActivity.this, "HEJSAN", Toast.LENGTH_LONG).show();
-                    Log.i("Alrik", "Click!!");
+                    Log.i("Alrik", "Click!!!!!!");
                 }
             });
 

@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
             Button b = findViewById(R.id.button);
             Button b2 = new Button(MainActivity.this);
+
             b2.setX(300);
             b2.setY(400);
             cl.addView(b2); // addar button till main layout
@@ -50,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
             });
 
            b.setBackgroundColor(Color.rgb(255,255,0));
+            b.setBackgroundColor(getResources().getColor(R.color.teal));
 
             Log.i("Alrik",""+Color.red(Color.YELLOW ) ); //sysout
 
